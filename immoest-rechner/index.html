@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="de-AT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ImmoESt-Rechner Österreich 2026 | immoheute</title>
+<meta name="description" content="Immobilienertragsteuer berechnen: Neu- und Altvermögen, Umwidmung, Hauptwohnsitzbefreiung und Vergleich Verkauf 2026 oder 2027. Gratis, ohne Anmeldung.">
+<link rel="canonical" href="https://immoheute.at/immoest-rechner/">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="theme-color" content="#0E5A52">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/pjs.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_AT">
+<meta property="og:site_name" content="immoheute">
+<meta property="og:title" content="ImmoESt-Rechner Österreich 2026">
+<meta property="og:description" content="Immobilienertragsteuer berechnen: Neu- und Altvermögen, Umwidmung, Hauptwohnsitzbefreiung und Vergleich Verkauf 2026 oder 2027. Gratis, ohne Anmeldung.">
+<meta property="og:url" content="https://immoheute.at/immoest-rechner/">
+<meta property="og:image" content="https://immoheute.at/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://immoheute.at/#organization", "name": "immoheute", "url": "https://immoheute.at/", "logo": "https://immoheute.at/icon.svg", "description": "Unabhängiger Ratgeber für private Immobilienverkäufer in Österreich.", "areaServed": {"@type": "Country", "name": "Österreich"}}, {"@type": "WebApplication", "name": "ImmoESt-Rechner Österreich", "url": "https://immoheute.at/immoest-rechner/", "applicationCategory": "FinanceApplication", "operatingSystem": "Web", "inLanguage": "de-AT", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "description": "Berechnet die Immobilienertragsteuer in Österreich für Neu- und Altvermögen, mit Umwidmung, Hauptwohnsitzbefreiung und Vergleich 2026/2027."}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://immoheute.at/"}, {"@type": "ListItem", "position": 2, "name": "ImmoESt-Rechner", "item": "https://immoheute.at/immoest-rechner/"}]}]}
+</script>
+</head>
+<body>
+<header class="site"><div class="w"><a class="logo" href="/"><svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="9" fill="var(--accent)"/><path d="M8 17l9-7 9 7M11 15.5V25h12v-9.5M15 25v-5h4v5" fill="none" stroke="var(--accent-ink)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>immoheute<span style="color:var(--accent)">.at</span></span></a><nav class="main" aria-label="Hauptnavigation"><a href="/ratgeber/">Ratgeber</a><a href="/immoest-rechner/" aria-current="page">ImmoESt-Rechner</a><a href="/#fragen">Häufige Fragen</a></nav></div></header>
+<main>
+<div class="w pad-s">
+<nav class="crumbs" aria-label="Brotkrumen"><a href="/">Startseite</a> › ImmoESt-Rechner</nav>
+<p class="eyebrow">ImmoESt-Rechner · Stand November 2026</p>
+<h1 style="font-size:clamp(32px,4.4vw,48px)">Immobilienertragsteuer berechnen</h1>
+<p class="lead">Für Wohnung, Haus oder Grundstück in Österreich. Das Beispiel ist vorausgefüllt – ändern Sie einfach die Werte. Ihre Eingaben bleiben in Ihrem Browser.</p>
+<div class="calc">
+<form id="calc" novalidate>
+<div class="card">
+<div class="field"><label for="preis">Verkaufspreis</label><input id="preis" type="text" inputmode="decimal" value="400000"></div>
+<div class="field"><span class="label" id="l-hws">War die Immobilie Ihr Hauptwohnsitz?</span>
+<div class="seg" role="radiogroup" aria-labelledby="l-hws"><label><input type="radio" name="hws" value="nein" checked> Nein</label><label><input type="radio" name="hws" value="ja"> Ja, 2 Jahre seit Kauf oder 5 der letzten 10 Jahre durchgehend</label></div></div>
+<div class="field"><span class="label" id="l-art">Wann wurde die Immobilie zuletzt gekauft?</span>
+<p class="hint">Bei Erbe oder Schenkung zählt der Kauf durch die Vorbesitzerin oder den Vorbesitzer.</p>
+<div class="seg" role="radiogroup" aria-labelledby="l-art"><label><input type="radio" name="art" value="alt" checked> Vor dem 31. März 2002 (Altvermögen)</label><label><input type="radio" name="art" value="neu"> Danach (Neuvermögen)</label></div></div>
+<div class="field"><span class="label" id="l-jahr">Wann verkaufen Sie?</span>
+<div class="seg" role="radiogroup" aria-labelledby="l-jahr"><label><input type="radio" name="jahr" value="2026" checked> Bis 31. Dezember 2026</label><label><input type="radio" name="jahr" value="2027"> Ab 1. Jänner 2027</label></div></div>
+<div class="field"><label for="umw">Wurde der Grund in Bauland umgewidmet?</label>
+<select id="umw"><option value="keine" selected>Nein, oder vor 1988</option><option value="1987">Ja, nach dem 31.12.1987 und nach dem letzten Kauf</option><option value="2024">Ja, nach dem 31.12.2024 (mit Umwidmungszuschlag)</option></select></div>
+<div id="neuFelder" hidden>
+<div class="field"><label for="ak">Anschaffungskosten inklusive Nebenkosten</label><p class="hint">Kaufpreis plus Grunderwerbsteuer, Grundbucheintragung, Vertragserrichtung, Makler.</p><input id="ak" type="text" inputmode="decimal" value="250000"></div>
+<div class="field"><label for="inv">Sanierung, Instandsetzung, Zubau</label><input id="inv" type="text" inputmode="decimal" value="20000"></div>
+</div>
+</div>
+</form>
+<aside class="out" aria-live="polite">
+<div class="total"><p class="k">Immobilienertragsteuer</p><p class="v" id="total">–</p><p class="s" id="totalSub"></p></div>
+<div class="card" style="margin-top:16px">
+<div id="vergleich"></div>
+<h2 style="font-size:19px;margin:0 0 10px">So wurde gerechnet</h2>
+<ol class="steps" id="steps"></ol>
+<div id="notes"></div>
+</div>
+</aside>
+</div>
+<section class="w narrow" style="padding:48px 0 0">
+<h2 class="h2" style="font-size:28px">So rechnet die Immobilienertragsteuer</h2>
+<p>Der Steuersatz beträgt 30 %. Bei <strong>Neuvermögen</strong> wird er auf den tatsächlichen Gewinn angewandt: Verkaufspreis minus Anschaffungskosten (inklusive Nebenkosten) und minus Ausgaben für Sanierung oder Zubau. Bei <strong>Altvermögen</strong> gilt pauschal ein Anteil des Verkaufspreises als Gewinn: 14 % bei Verkäufen bis 31. Dezember 2026, 20 % ab 1. Jänner 2027. Daraus ergeben sich 4,2 % bzw. 6 % Steuer. Wurde der Grund nach 1987 in Bauland umgewidmet, gelten 60 % bzw. 70 %.</p>
+<p>Alle Regeln mit Beispielen stehen im Ratgeber <a href="/ratgeber/immobilienertragsteuer/">Immobilienertragsteuer 2026</a>, die Änderung für Altvermögen in <a href="/ratgeber/immoest-2027-altvermoegen/">ImmoESt ab 2027</a>.</p>
+<p class="legal-note">Der Rechner liefert eine Orientierung, Stand 9. November 2026. Er berücksichtigt keine Herstellerbefreiung, keine Teilbefreiung bei Grund über 1.000 m² und keine Regelbesteuerung. Er ersetzt keine Steuerberatung; verbindlich berechnet die Notarin oder der Rechtsanwalt im Rahmen der Selbstberechnung.</p>
+</section>
+</div>
+<script>
+(function(){
+  'use strict';
+  var eur = new Intl.NumberFormat('de-AT',{style:'currency',currency:'EUR',maximumFractionDigits:0});
+  function zahl(id){ var v = parseFloat(String(document.getElementById(id).value).replace(/\./g,'').replace(',','.')); return isFinite(v) && v > 0 ? v : 0; }
+  function wert(name){ var el = document.querySelector('input[name="'+name+'"]:checked'); return el ? el.value : ''; }
+
+  // Kernberechnung ohne DOM
+  function berechne(e){
+    var schritte = [], hinweise = [];
+    if (e.hws === 'ja') {
+      return {steuer:0, schritte:['Hauptwohnsitzbefreiung: Der Verkauf ist steuerfrei.'],
+              hinweise:['Grund und Boden über 1.000 m² ist anteilig steuerpflichtig. Den Hauptwohnsitz müssen Sie aufgeben.'], sub:'steuerfrei (Hauptwohnsitzbefreiung)'};
+    }
+    var ab2027 = e.jahr === '2027';
+    var gewinn;
+    if (e.art === 'alt') {
+      var anteil = e.umw === 'keine' ? (ab2027 ? 0.20 : 0.14) : (ab2027 ? 0.70 : 0.60);
+      gewinn = e.preis * anteil;
+      schritte.push('Altvermögen: ' + Math.round(anteil*100) + ' % des Verkaufspreises gelten als Gewinn: ' + eur.format(gewinn));
+      hinweise.push('Auf Antrag kann der Gewinn auch nach den allgemeinen Regeln (Verkaufspreis minus tatsächliche Anschaffungskosten) ermittelt werden. Das lohnt sich nur bei geringem Wertzuwachs.');
+    } else {
+      gewinn = Math.max(0, e.preis - e.ak - e.inv);
+      schritte.push('Gewinn: ' + eur.format(e.preis) + ' − ' + eur.format(e.ak) + ' Anschaffungskosten − ' + eur.format(e.inv) + ' Sanierung/Zubau = ' + eur.format(gewinn));
+    }
+    if (e.umw === '2024') {
+      var mit = Math.min(e.preis, gewinn * 1.3);
+      schritte.push('Umwidmungszuschlag (+30 %, höchstens bis zum Verkaufspreis): ' + eur.format(mit));
+      gewinn = mit;
+    }
+    var steuer = gewinn * 0.30;
+    schritte.push('30 % Immobilienertragsteuer: ' + eur.format(steuer));
+    var sub = e.preis > 0 ? ('entspricht ' + (steuer / e.preis * 100).toLocaleString('de-AT',{maximumFractionDigits:1}) + ' % des Verkaufspreises') : '';
+    return {steuer:steuer, schritte:schritte, hinweise:hinweise, sub:sub};
+  }
+
+  function lesen(){
+    return {preis:zahl('preis'), art:wert('art'), jahr:wert('jahr'), umw:document.getElementById('umw').value,
+            hws:wert('hws'), ak:zahl('ak'), inv:zahl('inv')};
+  }
+
+  function zeigen(){
+    var e = lesen();
+    document.getElementById('neuFelder').hidden = e.art !== 'neu';
+    var r = berechne(e);
+    document.getElementById('total').textContent = eur.format(r.steuer);
+    document.getElementById('totalSub').textContent = r.sub;
+    document.getElementById('steps').innerHTML = r.schritte.map(function(s){ return '<li>' + s + '</li>'; }).join('');
+    var vgl = '';
+    if (e.art === 'alt' && e.hws !== 'ja') {
+      var a = berechne(Object.assign({}, e, {jahr:'2026'})), b = berechne(Object.assign({}, e, {jahr:'2027'}));
+      vgl = '<p><strong>Verkauf 2026:</strong> ' + eur.format(a.steuer) + ' · <strong>ab 2027:</strong> ' + eur.format(b.steuer) +
+            ' · Unterschied: ' + eur.format(b.steuer - a.steuer) + '</p>';
+    }
+    document.getElementById('vergleich').innerHTML = vgl;
+    document.getElementById('notes').innerHTML = r.hinweise.map(function(h){ return '<p class="hint" style="margin-top:10px">' + h + '</p>'; }).join('');
+  }
+  document.getElementById('calc').addEventListener('input', zeigen);
+  document.getElementById('calc').addEventListener('change', zeigen);
+  document.getElementById('calc').addEventListener('submit', function(ev){ ev.preventDefault(); zeigen(); });
+  zeigen();
+  window.immoest = berechne;
+})();
+</script>
+</main>
+<footer class="site"><div class="w"><p>immoheute.at bietet allgemeine Informationen rund um den privaten Immobilienverkauf in Österreich. Die Inhalte ersetzen keine Steuer- oder Rechtsberatung. © 2026 immoheute.at</p><nav aria-label="Fußzeile"><a href="/ratgeber/">Ratgeber</a><a href="/immoest-rechner/">ImmoESt-Rechner</a><a href="/impressum/">Impressum</a><a href="/datenschutz/">Datenschutz</a></nav></div></footer>
+</body>
+</html>

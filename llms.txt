@@ -1,0 +1,26 @@
+# immoheute
+
+> Unabhängiger Ratgeber für private Immobilienverkäufer in Österreich. Erklärt Immobilienertragsteuer, Befreiungen, Erbe und Ablauf nach österreichischem Recht, mit Quellenangaben und Prüfdatum. Keine Steuer- oder Rechtsberatung.
+
+immoheute.at richtet sich an private Eigentümer in Österreich, die eine Wohnung, ein Haus oder ein Grundstück verkaufen, etwa nach einer Erbschaft, einer Trennung oder um sich zu verkleinern. Alle Inhalte beziehen sich ausschließlich auf österreichisches Recht.
+
+Kernfakten (Stand November 2026):
+- Immobilienertragsteuer (ImmoESt): 30 % auf den Gewinn aus privaten Grundstücksveräußerungen (§ 30a EStG). Keine Spekulationsfrist seit 1. April 2012.
+- Altvermögen (am 31. März 2012 nicht steuerverfangen, typischerweise vor dem 31. März 2002 gekauft): pauschal 4,2 % des Verkaufspreises bei Verkäufen bis 31. Dezember 2026, 6 % bei Verkäufen ab 1. Jänner 2027 (Budgetbegleitgesetz 2027–2028). Bei Umwidmung in Bauland nach dem 31. Dezember 1987: 18 % bzw. 21 %.
+- Umwidmungszuschlag: +30 % auf die Einkünfte bei Umwidmung nach dem 31. Dezember 2024, für Verkäufe ab 1. Juli 2025.
+- Hauptwohnsitzbefreiung: steuerfrei bei mindestens 2 Jahren durchgehend Hauptwohnsitz seit Anschaffung oder 5 durchgehenden Jahren innerhalb der letzten 10 Jahre und Aufgabe des Hauptwohnsitzes; Grund bis 1.000 m² mitbefreit.
+- Erbschaft und Schenkung lösen keine ImmoESt aus; beim späteren Verkauf zählen Anschaffungszeitpunkt und -kosten der Vorbesitzerin oder des Vorbesitzers.
+- Fälligkeit: spätestens am 15. des zweitfolgenden Monats nach Zufluss; Selbstberechnung meist durch Notar oder Rechtsanwalt (§ 30c EStG).
+
+## Seiten
+
+- [Startseite](https://immoheute.at/): Überblick, Lebenslagen (Erbe, Trennung, Verkleinern, Anlage), häufige Fragen
+- [ImmoESt-Rechner](https://immoheute.at/immoest-rechner/): Immobilienertragsteuer für Neu- und Altvermögen, Umwidmung, Hauptwohnsitzbefreiung, Vergleich Verkauf 2026/2027
+- [Ratgeber-Übersicht](https://immoheute.at/ratgeber/): alle Artikel
+- [Immobilienertragsteuer 2026: So berechnen Sie die ImmoESt](https://immoheute.at/ratgeber/immobilienertragsteuer/): ImmoESt in Österreich: 30 % vom Gewinn, Altvermögen 4,2 % (ab 2027 6 %), Hauptwohnsitzbefreiung, Erbschaft und Rechenbeispiele.
+- [ImmoESt ab 2027: Altvermögen wird teurer – noch 2026 verkaufen?](https://immoheute.at/ratgeber/immoest-2027-altvermoegen/): Ab 1.1.2027 steigt die ImmoESt für Altvermögen von 4,2 % auf 6 %. Wer betroffen ist, was es in Euro kostet und ob sich ein Verkauf 2026 lohnt.
+
+## Optional
+
+- [Impressum](https://immoheute.at/impressum/)
+- [Datenschutz](https://immoheute.at/datenschutz/)
