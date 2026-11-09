@@ -12,6 +12,11 @@ Ratgeber-Seite für private Immobilienverkäufer in Österreich (Erbe, Trennung,
 - Auf `*.vercel.app` liefert `vercel.json` `X-Robots-Tag: noindex`; erst die echte Domain wird indexiert.
 - Neue Seite: in `build.py` (Sitemap/llms.txt) ergänzen, danach IndexNow anpingen: `https://api.indexnow.org/indexnow?url=<neue URL>&key=9063091d8362479e64a881aec0c7f2a5`.
 
+## Formulare (gleicher Aufbau wie daheimklar.at)
+- `api/` = Vercel Functions: `lead.js` (typ=newsletter mit Double-Opt-in; typ=anfrage nur mit Umgebungsvariable `ANFRAGEN_AKTIV=1`), `bestaetigen.js`, `abmelden.js`, `aufraeumen.js` (Cron täglich, löscht nach 180 Tagen), `export.js` (CSV mit `?key=`), `health.js`. Seitenspezifisches (Einwilligungstexte, Anliegen) in `api/_site.js`; Textänderung = Version erhöhen.
+- Speicher: privater Vercel-Blob-Store (`BLOB_READ_WRITE_TOKEN`). Umgebungsvariablen: `SITE_BASE_URL` (nach Domain-Anbindung auf die echte Domain ändern), `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM`, `NOTIFY_TO`, `EXPORT_KEY`, `CRON_SECRET`, optional `ANFRAGEN_AKTIV`.
+- Newsletter-Box: `newsletter_box()` in `_quelle/build.py` (Startseite und Artikel). Danke-/Fehler-/Newsletter-Seiten erzeugt `build.py` (`FORM_SEITEN`).
+
 ## Hosting-Regel (Vercel Hobby)
 - Solange das Projekt im Gratis-Plan läuft: keine Preise, Kaufbuttons, Makler-/Lead-Formulare, Werbung oder Affiliate-Links. Kommerzielle Teile (Verkaufs-Fahrplan, Makler-Bewertung, Energieausweis-Angebote) erst nach Umzug auf Hetzner oder Vercel Pro.
 
